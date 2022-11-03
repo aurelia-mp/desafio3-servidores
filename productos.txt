@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Luigi Bosca Malbec",
+    "price": 2400,
+    "thumbnail": "img/item1.jpeg",
+    "id": 1
+  },
+  {
+    "title": "Luigi Bosca Cabernet",
+    "price": 2300,
+    "thumbnail": "img/item2.jpeg",
+    "id": 2
+  },
+  {
+    "title": "DV Catena Malbec",
+    "price": 4000,
+    "thumbnail": "img/item3.jpeg",
+    "id": 3
+  }
+]
