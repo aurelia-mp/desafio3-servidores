@@ -33,8 +33,9 @@ app.get('/productoRandom', (req,res)=>{
         })
         // Una vez que tengo la cantidad de productos, genero el num aleatorio
         .then(r=>{
-            const id = Math.floor(Math.random()* cantidadProductos)
+            const id = (Math.floor(Math.random()* cantidadProductos))+1
             productos.getById(id)
-            .then(r=>res.send(r))
+            .then(r=>
+                res.send(r))
         })
 })
